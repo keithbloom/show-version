@@ -1,3 +1,3 @@
 export function show() {
-    console.log(`Version: 1`);
+    console.log(`show-version version: 1`);
 }
