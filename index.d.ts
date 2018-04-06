@@ -6,5 +6,6 @@ export as namespace ShowVersion;
 export = ShowVersion;
 
 declare namespace ShowVersion {
-    export function show() : string;
+    export function show() : void;
+    export function getVersionMessage() : string;
 }
